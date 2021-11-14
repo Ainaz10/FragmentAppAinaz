@@ -19,14 +19,32 @@ class MainActivity : AppCompatActivity() {
 
         bottomMenu.setOnItemSelectedListener { item ->
             when (item.itemId) {
+
                 R.id.menu -> {
                     val menuFragment = MenuFragment()
                     replaceFragment(menuFragment)
                 }
+
+                R.id.profile -> {
+                    val profileFragment = ProfileFragment()
+                    replaceFragment(profileFragment)
+                }
+
+                R.id.contact -> {
+                    val contactsFragment = ContactsFragment()
+                    replaceFragment(contactsFragment)
+                }
+
+                R.id.basket -> {
+                    val basketFragment = basketFragment()
+                    replaceFragment(basketFragment)
+                }
+
                 R.id.about -> {
                     val aboutFragment = AboutFragment()
                     replaceFragment(aboutFragment)
                 }
+
             }
             true
         }

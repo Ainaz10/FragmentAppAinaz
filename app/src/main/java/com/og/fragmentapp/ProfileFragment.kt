@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 
-class MenuFragment : Fragment() {
+class ProfileFragment : Fragment() {
 
     private lateinit var backButton: Button
 
@@ -15,7 +15,7 @@ class MenuFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_menu, container, false)
+        val view = inflater.inflate(R.layout.fragment_profile, container, false)
 
         backButton = view.findViewById(R.id.back_button)
 

@@ -6,4 +6,11 @@
     <string name="about_info">Мы - молодая компания</string>
     <string name="to_back">Назад</string>
     <string name="menu">Меню</string>
+    <string name="profile">Профиль</string>
+    <string name="contacts">Контакты</string>
+    <string name="basket">Корзина</string>
+    <string name="user_profile">Профиль пользователя</string>
+    <string name="contacts_company">Контакты компании</string>
+    <string name="menu_section">Меню</string>
+
 </resources>
